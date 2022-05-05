@@ -1,0 +1,6 @@
+# Linguagem-C
+Learnigs of language C
+  #include <stdio.h>
+    int main(){
+      printf("ESSE DIRETORIO E UM CADERNO DE ANOTAÇOES ACERCA DOS ESTUDOS DA LINGUAGEM DE PROGRAMAÇAO 'C'")
+      return 0;
