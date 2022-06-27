@@ -56,5 +56,5 @@ void main()
                 i++;
             }
     }
-    printf("\ntotal de pecas = %d",total+4);
+    printf("\ntotal de pecas = %d",total);
 }
