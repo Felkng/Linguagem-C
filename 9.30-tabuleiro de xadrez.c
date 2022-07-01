@@ -2,12 +2,13 @@
 void main()
 {
     int tabu[8][8]={1, 3, 0, 5, 4, 0, 2, 1,1, 0, 1, 0, 0, 1, 0, 0,0, 0, 0, 0, 1, 0, 6, 0,1, 0, 0, 1, 1, 0, 0, 1,0, 1, 0, 4, 0, 0, 1, 0,0, 0, 3, 1, 0, 0, 1, 1,1, 0, 6, 6, 0, 0, 1, 0,1, 0, 5, 0, 1, 1, 0, 6};
-    int i,j,total=0;
+    int i,j,total=0, vazio=0;
     int rainha=0,rei=0,bispo=0,torre=0,cavalo=0,peao=0;
     for(i=0;i<8;i++)
     {
             for(j=0;j<8;j++)
             {
+                a[i][j] != 0 ? total++: vazio++;
                 if(tabu[i][j]==6)
                         rainha++;
                 else if(tabu[i][j]==5)
@@ -31,16 +32,6 @@ void main()
             peao=0;
         printf("\n");
     }
-    for(i=0,j=0;i!=8;)
-    {
-        if(tabu[i][j]!=0)
-            total++;
-        j++;
-        if(j==7)
-            {
-                j=0;
-                i++;
-            }
-    }
     printf("\ntotal de pecas = %d",total);
+    printf("\ntotal de pecas vazias = %d",vazio);
 }
