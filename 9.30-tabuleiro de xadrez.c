@@ -8,7 +8,7 @@ void main()
     {
             for(j=0;j<8;j++)
             {
-                a[i][j] != 0 ? total++: vazio++;
+                a[i][j] != 0 ? total++ : vazio++;
                 if(tabu[i][j]==6)
                         rainha++;
                 else if(tabu[i][j]==5)
