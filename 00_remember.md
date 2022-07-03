@@ -17,6 +17,7 @@
 int main(){
     int ex;
     scanf("%d",&ex);
+    fflush(stdin); //limpa teclado
 }
 ```
 #
