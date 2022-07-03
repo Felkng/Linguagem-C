@@ -24,14 +24,20 @@ int main(){
 <h1>Caracteres de controle e Operadores lógicos</h1>
 
 <strong>"%d"</strong> = int
-\n<strong>"%f"</strong> = float ou double
-\n<strong>"%lf"</strong> = double
-\n<strong>"%c"</strong> = char
-\n<strong>"%s"</strong> = string
 
-\n<strong>"||"</strong> = ou
-\n<strong>"&&"</strong> = e
-\n<strong>"!"</strong> = não
+<strong>"%f"</strong> = float ou double
+
+<strong>"%lf"</strong> = double
+
+<strong>"%c"</strong> = char
+
+<strong>"%s"</strong> = string
+
+<strong>"||"</strong> = ou
+
+<strong>"&&"</strong> = e
+
+<strong>"!"</strong> = não
 
 #
 
