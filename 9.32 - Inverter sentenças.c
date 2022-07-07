@@ -1,9 +1,7 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 /*
-//espaço = ' ';
-//enter = '\n'
+espaço = ' ';
+enter = '\n'
 */
 int main()
 {
@@ -21,11 +19,13 @@ int main()
                 clone_sentenca[i] = '&';
 
             }
-            if(str=='\n')
+            if(str=='\n' || i == 149){
+                if(i==149)
+                    clone_sentenca[i] = '&';
                 break;
+            }
             i++;
         }
-        printf("\n");
     for(;palavra>0;){
         i--;
         if(clone_sentenca[i] == '&' || i == 0){
@@ -44,3 +44,4 @@ int main()
     }
     return 0;
 }
+
