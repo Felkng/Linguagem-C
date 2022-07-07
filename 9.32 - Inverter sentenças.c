@@ -3,15 +3,13 @@
 espaço = ' ';
 enter = '\n'
 */
-int main()
-{
+int main(){
     char str;
     char leitor;
     int palavra=0;
     char clone_sentenca[150];
     int i=0, save=0;
-    for(;;)
-        {
+    for(;;){
             scanf("%c",&str);
             clone_sentenca[i]=str;
             if(str == ' ' || str== '\n'){
@@ -44,4 +42,3 @@ int main()
     }
     return 0;
 }
-
